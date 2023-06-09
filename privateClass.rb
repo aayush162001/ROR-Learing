@@ -28,6 +28,6 @@ Marvel.new.Captian
 # Marvel::Avengers.new.tony #error as its private
 # Marvel::Guardians.new.rocket
 
-for i in 0..9
-    print " #{i} \n"
-end
+# for i in 0..9
+#     print " #{i} \n"
+# end

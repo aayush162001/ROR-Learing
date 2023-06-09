@@ -108,4 +108,4 @@ class Vehicle
 end
 object = Vehicle.new('Thar','Brown')     
 object.display   
-object.greeting
+# object.greeting

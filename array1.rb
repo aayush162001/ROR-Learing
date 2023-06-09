@@ -49,3 +49,17 @@ frequencies = Hash.new(0)
 arr.each {|i| frequencies[i] += 1}
 
 frequencies. each {|word,count| puts "#{word} : #{count}" if count > 1}
+
+#Use Ruby's Array method delete_if and String method start_with? to delete all of the strings that begin with an "s" in the following array.
+
+arr1 = ['snow', 'winter', 'ice', 'slippery', 'salted roads', 'white trees']
+
+puts(arr1.delete_if {|str| str.start_with?("s","w")})
+
+a = ['white snow', 'winter wonderland', 'melting ice',
+     'slippery sidewalk', 'salted roads', 'white trees']
+
+a = a.map {|pairs| pairs.split}
+puts a
+a = a.flatten
+p a
